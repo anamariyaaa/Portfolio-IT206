@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio - About</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styless.css">
+  
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">MyPortfolio</div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="about.html">About ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="education.html">Education</a></li>
+            <li><a href="personal-info.html">Personal Info</a></li>
+          </ul>
+        </li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="calculator.html">Calculator</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <div class="about-container">
+      <div class="profile-card">
+        <div class="profile-img-wrapper">
+          <img id="profileImage" src="pfp.jpg" alt="Profile Picture">
+        </div>
+        <input type="file" id="profileUpload" accept="image/*">
+        <button class="btn change-photo-btn" onclick="document.getElementById('profileUpload').click()">Change Profile Picture</button>
+      </div>
+
+      <div class="about-details">
+        <h2>About Me</h2>
+        <p>Hello! I am currently a 2nd year student at Yllana Bay View College (YBVC), majoring in Bachelor of Science in Information Technology (BSIT). I enjoy listening to music, reading manhwa, editing videos or photos and watching kdrama.</p>
+        <br>
+        <p>My experience as an IT student has been confusing, yet it also helped me gain new knowledge and abilities. Understanding more about programming has given me new insights on software and hardware.</p>
+        <br>
+        <p>I hope to become a programmer and accomplish even more in the future. With the knowledge and guidance that I have received, I am looking forward to keep learning and improving my skills.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 A.M.D.E .</p>
+  </footer>
+ <script src="script.js"></script>
+</body>
+</html>

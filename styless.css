@@ -1,0 +1,72 @@
+#about, .info-box, #contact, .project-card {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.18),
+    rgba(226, 203, 233, 0.08)
+  ) !important;
+  
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  
+  border-top: 1px solid rgba(255, 255, 255, 0.6);
+  border-left: 1px solid rgba(255, 255, 255, 0.6);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  
+  box-shadow: 
+    0 8px 32px rgba(82, 60, 88, 0.2),
+    0 0 24px rgba(226, 203, 233, 0.4),
+    inset 0 0 14px rgba(255, 255, 255, 0.25);
+    
+  transition: transform 0.35s cubic-bezier(0.25, 0.8, 0.25, 1), 
+              box-shadow 0.35s ease, 
+              background 0.35s ease;
+}
+
+.project-card {
+  color: #4a3550;
+}
+
+.project-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.5),
+    rgba(226, 203, 233, 0.35)
+  ) !important;
+  box-shadow: 
+    0 15px 40px rgba(82, 60, 88, 0.35),
+    0 0 32px rgba(255, 255, 255, 0.85),
+    inset 0 0 20px rgba(255, 255, 255, 0.6);
+}
+
+.change-photo-btn {
+  background: rgba(118, 89, 126, 0.85);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  color: #ffffff;
+  border-radius: 12px;
+  padding: 0.55rem 1.1rem;
+  font-weight: 500;
+  box-shadow: 0 4px 15px rgba(118, 89, 126, 0.35);
+  transition: all 0.3s ease;
+}
+
+.change-photo-btn:hover {
+  background: rgba(145, 110, 155, 0.95);
+  transform: translateY(-3px);
+  border-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 
+    0 8px 25px rgba(118, 89, 126, 0.55),
+    0 0 18px rgba(226, 203, 233, 0.95);
+}
+
+.change-photo-btn:active {
+  transform: translateY(0);
+}
+
+.profile-img-wrapper {
+  border: 3px solid rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 20px rgba(226, 203, 233, 0.8);
+}
